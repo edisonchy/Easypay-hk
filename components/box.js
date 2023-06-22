@@ -91,7 +91,9 @@ export default function Box({theone}) {
               {t('spotify2')}
             </p>
             <hr className="h-[3px] w-full border-0 my-4 rounded bg-gradient-to-r from-gree via-pin to-pur"/>
-            {t('spotify7')}
+            <span className={"text-gree"}>
+              {t('spotify7')}
+            </span>
             <br/>
             {t('spotify8')}
             <hr className="h-[3px] w-full border-0 my-4 rounded bg-gradient-to-r from-gree via-pin to-pur"/>
