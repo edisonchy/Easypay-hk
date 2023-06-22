@@ -14,12 +14,12 @@ export default function Nav({shop, purchase, tos}) {
           <>
             <li className={"drop-shadow-lg inline-block w-[100px] px-[4px] rounded-[10px] bg-gradient-to-t from-transparent from 40% to-white/10 shadow-md shadow-black/40"}>{shop}</li>
             <Link href="/purchase" prefetch={false}>
-              <li className={"drop-shadow-lg inline-block w-[100px] px-[4px] shadow-black/40 rounded-[10px]"}>
+              <li className={"drop-shadow-lg inline-block w-[100px] px-[4px] shadow-black/40 rounded-[10px] hover:text-litbloo"}>
                 {purchase}
               </li>
             </Link>
             <Link href="/tos" prefetch={false}>
-              <li className={"drop-shadow-lg inline-block w-[100px] px-[4px] shadow-black/40 rounded-[10px]"}>
+              <li className={"drop-shadow-lg inline-block w-[100px] px-[4px] shadow-black/40 rounded-[10px] hover:text-litbloo"}>
                 {tos}
               </li>
             </Link>
@@ -30,13 +30,13 @@ export default function Nav({shop, purchase, tos}) {
         guts = (
           <>
             <Link href="/" prefetch={false}>
-              <li className={"drop-shadow-lg inline-block w-[100px] px-[4px] shadow-black/40 rounded-[10px]"}>
+              <li className={"drop-shadow-lg inline-block w-[100px] px-[4px] shadow-black/40 rounded-[10px] hover:text-litbloo"}>
                 {shop}
               </li>
             </Link>
             <li className={"drop-shadow-lg inline-block w-[100px] px-[4px] rounded-[10px] bg-gradient-to-t from-transparent from 40% to-white/10 shadow-md shadow-black/40"}>{purchase}</li>
             <Link href="/tos" prefetch={false}>
-              <li className={"drop-shadow-lg inline-block w-[100px] px-[4px] shadow-black/40 rounded-[10px]"}>
+              <li className={"drop-shadow-lg inline-block w-[100px] px-[4px] shadow-black/40 rounded-[10px] hover:text-litbloo"}>
                 {tos}
               </li>
             </Link>
@@ -47,12 +47,12 @@ export default function Nav({shop, purchase, tos}) {
         guts = (
           <>
             <Link href="/" prefetch={false}>
-              <li className={"drop-shadow-lg inline-block w-[100px] px-[4px] shadow-black/40 rounded-[10px]"}>
+              <li className={"drop-shadow-lg inline-block w-[100px] px-[4px] shadow-black/40 rounded-[10px] hover:text-litbloo"}>
                 {shop}
               </li>
             </Link>
             <Link href="/purchase" prefetch={false}>
-              <li className={"drop-shadow-lg inline-block w-[100px] px-[4px] shadow-black/40 rounded-[10px]"}>
+              <li className={"drop-shadow-lg inline-block w-[100px] px-[4px] shadow-black/40 rounded-[10px] hover:text-litbloo"}>
                 {purchase}
               </li>
             </Link>
