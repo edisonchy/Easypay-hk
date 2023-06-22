@@ -11,7 +11,7 @@ export default function Tos() {
         <Title />
         <Nav shop={t('shop')} purchase={t('purchase')} tos={t('tos')}/>
         <TosComp />
-        <div className={"relative top-[130px] w-full invisible"}>easypayhk</div>
+        <div className={"relative top-[150px] w-full invisible"}>easypayhk</div>
     </div>
   )
 }
