@@ -1,0 +1,25 @@
+import {useTranslations} from 'next-intl';
+
+export default function TosComp() {
+  const t = useTranslations('Index');
+
+  return (
+    <div className="relative top-[140px] w-auto flex flex-col items-center">
+          <div className="m-[20px] max-w-[470px] bg-gradient-to-b from-bloo to-purp from-0% to-70% backdrop-blur-sm shadow-lg rounded-[10px] p-5">
+            <h2 className={"text-litbloo text-2xl relative text-center mb-2"}>{t('tos6')}</h2>
+            <p className={"mb-3"}>
+              {t('tos2')}
+            </p>
+            <p className={"mb-3"}>
+              {t('tos3')}
+            </p>
+            <p className={"mb-3"}>
+              {t('tos4')}
+            </p>
+            <p>
+              {t('tos5')}
+            </p>
+          </div>
+    </div>
+  )
+}
