@@ -22,7 +22,7 @@ export default function Home({ params }) {
       />  */}
       <SwitchLanguageIcon
         params={params.locale}
-        className={"z-10 fixed top-5 right-5 sm:relative sm:top-[170px] sm:flex sm:justify-center sm:right-0"}
+        className={"z-10 fixed top-10 right-5 sm:relative sm:top-[170px] sm:flex sm:justify-center sm:right-0"}
         language={t("language")}
       /> 
       <footer className={"relative top-[170px] w-full invisible"}>easypayhk</footer>

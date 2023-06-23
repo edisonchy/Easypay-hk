@@ -9,9 +9,12 @@ export default function TosComp() {
         <h2 className={"text-litbloo text-2xl relative text-center mb-2"}>
           {t("tos6")}
         </h2>
-        <p className={"mb-3"}>{t("tos2")}</p>
-        <p className={"mb-3"}>{t("tos3")}</p>
-        <p className={"mb-3"}>{t("tos4")}</p>
+        <p>{t("tos2")}</p>
+        <hr className="h-[3px] w-full border-0 my-4 rounded bg-gradient-to-r from-gree via-pin to-pur" />
+        <p>{t("tos3")}</p>
+        <hr className="h-[3px] w-full border-0 my-4 rounded bg-gradient-to-r from-gree via-pin to-pur" />
+        <p>{t("tos4")}</p>
+        <hr className="h-[3px] w-full border-0 my-4 rounded bg-gradient-to-r from-gree via-pin to-pur" />
         <p>{t("tos5")}</p>
       </div>
     </div>
