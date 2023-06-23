@@ -21,19 +21,30 @@ module.exports = {
           '50%': { transform: 'scale(1.08)' },
         },
         'move-up-down': {
-          '0%, 100%': { bottom: '0' },
-          '50%' : {bottom: '5px'}
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%' : {transform: 'translateY(5px)'}
         },
         'move-left': {
           '0%': { 'background-position': '0%'},
           '100%': { 'background-position': '400%'}
+        },
+        'pinging': {
+          '75%, 100%': {
+            transform: 'scale(1.3)',
+            opacity:'0'
+          },
+        },
+        'spinner': {
+          'from': { transform: 'rotate(0deg)' },
+          'to': { transform: 'rotate(360deg)' }
         }
-
       },
       animation: {
         scale: 'scale-loop 2s ease-in-out infinite',
         move: 'move-up-down 1s linear infinite',
-        left: 'move-left 8s linear infinite'
+        left: 'move-left 8s linear infinite',
+        pinger: 'pinging 1.5s cubic-bezier(0, 0, 0.2, 1) infinite',
+        spinny: 'spinner 3s linear infinite'
       },
       colors: {
         bloo: 'rgb(64, 71, 122, 0.92)',
