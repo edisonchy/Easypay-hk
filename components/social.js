@@ -44,7 +44,7 @@ export default function Pick() {
             height="35"
           />
         </a>
-        <a href="https://instagram.com/easypay_hk/" target="_blank">
+        <a href="https://instagram.com/easypayhk/" target="_blank">
           <Image
             className={
               "drop-shadow-lg transition duration-500 ease-in-out hover:scale-120"
