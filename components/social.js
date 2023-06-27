@@ -44,7 +44,7 @@ export default function Pick() {
             height="35"
           />
         </a>
-        <a href="https://instagram.com/easypayhk/" target="_blank">
+        <a href="https://instagram.com/easypay_hk/" target="_blank">
           <Image
             className={
               "drop-shadow-lg transition duration-500 ease-in-out hover:scale-120"
@@ -54,7 +54,7 @@ export default function Pick() {
             height="35"
           />
         </a>
-        <a href="https://www.carousell.com.hk/u/easypay_hk/" target="_blank">
+        <a href="https://www.carousell.com.hk/u/easypayhk/" target="_blank">
           <Image
             className={
               "drop-shadow-lg transition duration-500 ease-in-out hover:scale-120"
