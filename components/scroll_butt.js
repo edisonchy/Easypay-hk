@@ -6,12 +6,6 @@ import ScrollButtClick from "./scroll_button_click";
 export default function ScrollButton() {
   const [showTopBtn, setShowTopBtn] = useState(true);
 
-  const butt = (
-    <div className={"absolute flex w-full justify-end z-20 top-[230px]"}>
-      <button className={"bg-black rounded w-[45px] h-[45px]"}>hi</button>
-    </div>
-  );
-
   useEffect(() => {
     const scrollContent = document.querySelector("#this");
 
